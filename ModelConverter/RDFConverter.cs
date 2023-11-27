@@ -62,7 +62,7 @@ namespace ModelConverter
         {
             
             string rdf = $@"
-                @prefix {siteName}: <http://{siteName}namespace.com/>.
+                @prefix {siteName}: <http://{siteName}.namespace.com/>.
                 @prefix bot: <https://w3id.org/bot#>.
                 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
                 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
